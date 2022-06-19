@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 02 - Formularios en HTML</title>
+  </head>
+  <body>
+    <form action="/ " method="POST">
+      <div>
+        <label>Nombre:</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Ingrese su nombre..."
+          required
+        />
+      </div>
+      <hr />
+      <div>
+      <label>Edad:</label>
+      <input
+        type="number"
+        name="edad"
+        id="edad"
+        placeholder="Ingrese su edad..."
+        required
+      />
+      </div>
+      <hr />
+      <div>
+   
+      <label>Frase favorita:</label>
+      <textarea
+        type="text"
+        name="frase-favorita"
+        id="frase-favorita"
+        placeholder="Cúal es su frase favorita..."
+      ></textarea>
+      <div/>
+      <hr />
+      <input type="submit" name="btnSubmit" id="btnSubmit" />
+
+      <input type="reset" name="btnReset" id="btnReset" />
+    </form>
+  </body>
+</html>
