@@ -1,0 +1,8 @@
+.flex-imagenes {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+img {
+  width: 25%;
+}
