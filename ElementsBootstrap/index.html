@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos de Interés en Bootstrap</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="row">
+      <div class="bg-light p-5 rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <p class="col-md-8 fs-4">
+            Using a series of utilities, you can create this jumbotron, just
+            like the one in previous versions of Bootstrap. Check out the
+            examples below for how you can remix and restyle it to your liking.
+          </p>
+          <button
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#mi-modal"
+          >
+            Example button
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="row p-5">
+      <form action="/">
+        <div class="mb-3">
+          <label class="form-label" for="nombre">Nombre</label>
+          <input
+            id="nombre"
+            type="text"
+            class="form-control"
+            placeholder="Nombre..."
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="telefono">Teléfono</label>
+          <input
+            id="telefono"
+            type="number"
+            class="form-control"
+            placeholder="Teléfono..."
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="mensaje">Mensaje</label>
+          <textarea
+            id="mensaje"
+            type="text"
+            class="form-control"
+            placeholder="Mensaje..."
+          ></textarea>
+        </div>
+      </form>
+    </section>
+    <section class="row p-5">
+      <div class="card" style="width: 15rem">
+        <div class="card-body">
+          <h5 class="card-title">Chris Paul</h5>
+          <p class="card-text">
+            Chris Paul es un desarrollador Full Stack ecuatoriano apasionado
+            por el desarrollo web y móbil utilizando React js y React Native.
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="mailto:info@chrispaulrtv.me">info@chrispaulrtv.me</a>
+        </div>
+      </div>
+    </section>
+    <div class="modal" tabindex="-1" id="mi-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Ventana Modal</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Buy me a cofee  - Att. Chris Paul.</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+</html>
